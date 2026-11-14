@@ -78,7 +78,7 @@ function PanelContent({
   closeRef,
   onClose,
 }: {
-  closeRef: RefObject<HTMLButtonElement | null>;
+  closeRef: RefObject<HTMLButtonElement>;
   onClose: () => void;
 }) {
   const { presetId, colors, selectPreset, setPrimary, setBackground, reset } = useTheme();
