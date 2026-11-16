@@ -44,6 +44,7 @@ export type Experience = {
   company: string;
   period: string;
   location?: string;
+  image: string;
   bullets: string[];
 };
 
@@ -52,6 +53,7 @@ export const experience: Experience[] = [
     role: "Frontend Intern",
     company: "Tusta (Apt - Atypical Technologies Pvt. Ltd.)",
     period: "June 2025 - September 2025",
+    image: "https://images.pexels.com/photos/8228578/pexels-photo-8228578.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     location: "Remote",
     bullets: [
       "Translated Figma designs into pixel-perfect client-side UI while collaborating with product and design teams.",
@@ -63,6 +65,7 @@ export const experience: Experience[] = [
     role: "Cloud Computing Intern",
     company: "WEBXELA",
     period: "June - September 2024",
+    image: "https://images.pexels.com/photos/11129659/pexels-photo-11129659.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     location: "Remote",
     bullets: [
       "Built foundational understanding of cloud service models, cloud deployment types, and IAM standards.",
@@ -74,6 +77,7 @@ export const experience: Experience[] = [
     role: "Cybersecurity Virtual Internship",
     company: "Palo Alto Networks",
     period: "April - June 2024",
+    image: "https://images.pexels.com/photos/1787044/pexels-photo-1787044.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     location: "Online",
     bullets: [
       "Completed a 10-week AICTE Virtual Internship on Cybersecurity in collaboration with EduSkills, focusing on practical security concepts and industry-relevant skills.",
@@ -85,6 +89,7 @@ export const experience: Experience[] = [
     role: "Frontend Developer Intern",
     company: "Astrabite",
     period: "June - August 2023",
+    image: "https://images.pexels.com/photos/18096357/pexels-photo-18096357.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     location: "Mumbai",
     bullets: [
       "Developed websites for Production Houses and e-commerce companies using React.js, increasing traffic by 50%.",
@@ -94,6 +99,7 @@ export const experience: Experience[] = [
     role: "Frontend Mentor",
     company: "DJ Unicode",
     period: "June 2023 - Present",
+    image: "https://images.pexels.com/photos/14441135/pexels-photo-14441135.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     bullets: [
       "Mentored multiple junior members in frontend development, providing tasks, resolving doubts, and fostering skill development, resulting in a 30% improvement in their coding skills.",
       "Organized and led Celestia, a successful event that attracted over 200 participants, featuring technical and non-technical challenges, marking the first major event in the history of the Unicode club.",
@@ -103,6 +109,7 @@ export const experience: Experience[] = [
     role: "Coding Team",
     company: "DJS Robocon",
     period: "April 2022 - September 2023",
+    image: "https://images.pexels.com/photos/6298579/pexels-photo-6298579.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     bullets: [
       "Programmed robot movements and throwing mechanisms using Arduino microcontrollers, servo motors, and motor drivers for a national robotics competition, collaborating closely with team members.",
     ],
